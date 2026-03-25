@@ -122,9 +122,13 @@ Claude Code의 Agent 시스템으로 실행되는 자율 에이전트입니다.
     │   ├── prd-to-issues/SKILL.md
     │   ├── propose-fix/SKILL.md
     │   ├── suggest-next/SKILL.md
+    │   ├── pr-reviewer-workspace/
+    │   │   ├── eval_set.json
+    │   │   └── trigger-eval.json
     │   ├── vercel-react-best-practices/
     │   │   ├── SKILL.md
-    │   │   └── AGENTS.md
+    │   │   ├── AGENTS.md
+    │   │   └── rules/ (57 rule files)
     │   └── write-prd/SKILL.md
     └── agents/
         ├── dev-cycle.md
